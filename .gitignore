@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Docker
+*.pid
+*.seed
+*.log
+docker-compose.override.yml
+
+# Build / cache
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# Security scans / images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Lock files (optional, keep if you want reproducible builds)
+package-lock.json
+yarn.lock
